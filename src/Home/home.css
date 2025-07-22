@@ -1,0 +1,21 @@
+.home {
+    background-color: #1abc9c;
+    height: 100vh;
+    padding-block: 100px;
+}
+
+h1 {
+    font-size: 4rem !important;
+    letter-spacing: 1px !important;
+    margin-top: 30px !important;
+    text-align: center;
+    text-transform: uppercase !important;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.text-white {
+    margin-top: 20px !important;
+    font-size: 1.4rem;
+    font-weight: 400;
+}

@@ -1,0 +1,31 @@
+.star-dividerBlack{
+    margin-block: 30px !important;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    margin:auto;
+}
+.star-dividerBlack::after{
+    background-color: #2c3e50;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 1px;
+    width: 120px;
+    right: 50px;
+}
+.star-dividerBlack::before{
+    background-color: #2c3e50;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: 1px;
+    width: 120px;
+    left: 50px;
+}
+
+.star-dividerBlack .fa-star{
+    color: #2c3e50;
+}

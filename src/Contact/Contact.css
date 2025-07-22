@@ -1,0 +1,40 @@
+.contact{
+    padding-block: 70px;
+
+    h2 {
+        color: #2c3e50;
+        font-size: 3rem !important;
+        font-weight: 600 !important;
+        margin-bottom: 20px !important;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+
+    }
+    input, textarea {
+        border: none !important;
+        display: block;
+        font-size: 1.3rem !important;
+        font-weight: 500 !important;
+        outline: none !important;
+    }
+    textarea {
+        height: 180px !important;
+        padding-left: 15px !important;
+        resize: none !important;
+        box-shadow: none !important;
+        /* outline: none !important; */
+    }
+
+    input[type=submit] {
+        background-color: #1abc9c;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        width: fit-content;
+    }
+
+    input[type=submit]:hover {
+        background-color: #16a085;
+    }
+}

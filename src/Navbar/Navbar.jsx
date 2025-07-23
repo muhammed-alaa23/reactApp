@@ -1,5 +1,3 @@
-
-import React from 'react'
 import "./Navbar.css"
 import { Link, NavLink } from 'react-router-dom'
 <style>
@@ -13,7 +11,7 @@ export default function Navbar() {
   return <>
     <nav className="navbar navbar-expand-lg sticky-top ">
   <div className="container">
-    <NavLink className="navbar-brand fw-bolder" to="/">START Framework</NavLink>
+    <Link className="navbar-brand fw-bolder" to="/">START Framework</Link>
     <button className="navbar-toggler display-flex align-items-center p-2 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       Menu <i className='fa-solid fa-bars fa-sm'></i>
     </button>

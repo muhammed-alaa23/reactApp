@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import "./Portfolio.css"
 import ModalPortfolio from './ModalPortfolio';
 

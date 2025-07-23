@@ -1,4 +1,3 @@
-
 import StarDividerBlack from '../component/StarDividerBlack'
 
 export default function ModalPortfolio({ item, index }) {

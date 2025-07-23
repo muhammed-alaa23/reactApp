@@ -1,8 +1,5 @@
-import React from 'react'
-import './About.css'
-import StarDivider from "../component/StarDivider";
-
-
+import './about.css'
+import StarDivider from "../component/StarDivider"
 
 
 

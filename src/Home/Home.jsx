@@ -1,6 +1,8 @@
 import "./home.css"
 import logo from "../React App/imgi_1_avataaars.aa9aff02ddd0ef36a1724ecef4133df9.svg";
 import StarDivider from "../component/StarDivider";
+
+
  export default function Home(){
     
 

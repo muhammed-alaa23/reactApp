@@ -1,4 +1,3 @@
-import React from 'react'
 import './Contact.css'
 import StarDividerBlack from '../component/StarDividerBlack'
 
